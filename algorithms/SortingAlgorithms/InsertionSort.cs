@@ -5,7 +5,7 @@ namespace algorithms.SortingAlgorithms
 {
     public class InsertionSort: ISortingAlgorithm
     {
-        public override string Description => String.Empty;
+        public override string Description => string.Empty;
         public override string Complexity => "O(n^2)";
         public override string Name => "InsertionSort";
         public override IEnumerable<U> Sort<U>(IList<U> array)
