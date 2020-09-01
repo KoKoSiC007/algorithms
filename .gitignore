@@ -1,4 +1,5 @@
 .idea
-.sln
-.csproj
-.DS_Store
+algorithms.sln
+algorithms/algorithms.csproj
+algorithms/bin/
+algorithms/obj/
