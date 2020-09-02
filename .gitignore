@@ -1,5 +1,2 @@
 .idea
-algorithms.sln
 algorithms/algorithms.csproj
-algorithms/bin/
-algorithms/obj/
