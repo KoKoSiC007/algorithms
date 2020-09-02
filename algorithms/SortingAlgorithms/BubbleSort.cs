@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace algorithms.SortingAlgorithms
 {
-    public class BubbleSort: ISortingAlgorithm
+    public class BubbleSort: SortingAlgorithm
     {
         public override string Description => string.Empty;
         public override string Complexity => "O(n^2)";

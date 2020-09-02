@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace algorithms.SortingAlgorithms
 {
-    public class SelectionSort: ISortingAlgorithm
+    public class SelectionSort: SortingAlgorithm
     {
         public override string Description  => string.Empty;
         

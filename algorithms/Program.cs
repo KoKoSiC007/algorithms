@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using algorithms.SortingAlgorithms;
 
 namespace algorithms
@@ -8,12 +9,12 @@ namespace algorithms
     {
         static void Main(string[] args)
         {
-            var size = 100_000;
+            var size = 100_00;
 
             var selSort = new SelectionSort();
             var bubbleSort = new BubbleSort();
             var insertionSort = new InsertionSort();
-
+            
             var tasks = new[]
             {
                 Task.Run(() => selSort.Benchmark(size)),

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace algorithms.SortingAlgorithms
 {
-    public class ISortingAlgorithm: IAlgorithm
+    public class SortingAlgorithm: IAlgorithm
     {
         
         private static readonly Random R = new Random();
