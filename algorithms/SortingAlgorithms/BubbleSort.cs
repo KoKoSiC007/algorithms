@@ -11,11 +11,11 @@ namespace algorithms.SortingAlgorithms
 
         public override IEnumerable<U> Sort<U>(IList<U> array)
         {
-            for (var i = 0; i < array.Count - 2; i++)
+            for (var i = 0; i < array.Count - 1; i++)
             {
-                for (var j = 0; j < array.Count - 2; j++)
+                for (var j = 0; j < array.Count - 1; j++)
                 {
-                    if (array[j].CompareTo(array[j + 1]) < 0) continue;
+                    if (array[j].CompareTo(array[j + 1]) <= 0) continue;
                     var temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;

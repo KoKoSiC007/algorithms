@@ -16,7 +16,7 @@ namespace algorithms.SortingAlgorithms
                 
                 for (var i = 0; i < length - 1; i++)
                 {
-                    if (array[i].CompareTo(array[i + 1]) >= 0) continue;
+                    if (array[i].CompareTo(array[i + 1]) <= 0) continue;
                     var temp = array[i];
                     array[i] = array[i + 1];
                     array[i + 1] = temp;

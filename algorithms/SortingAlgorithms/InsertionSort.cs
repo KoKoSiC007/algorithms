@@ -14,7 +14,7 @@ namespace algorithms.SortingAlgorithms
                 var key = array[i];
                 var j = i;
                 
-                while (j > 0 && array[j - 1].CompareTo(key) < 0)
+                while (j > 0 && array[j - 1].CompareTo(key) >= 0)
                 {
                     array[j] = array[j - 1];
                     --j;
