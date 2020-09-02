@@ -2,3 +2,8 @@
 .DS_Store
 algorithms/bin/
 algorithms/obj/
+
+AlgorithmsTest/bin
+AlgorithmsTest/obj
+
+.dll
