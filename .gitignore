@@ -5,5 +5,5 @@
 algorithms/bin/
 algorithms/obj/
 
-Tests/bin
-Tests/obj
+Tests/bin/
+Tests/obj/
